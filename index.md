@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: About me
 ---
 
 Welcome to my website! It’s a space for anyone curious to learn more about my background and interests.
