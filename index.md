@@ -8,7 +8,7 @@ title: Home
 <div class="right-block">
   <img src="my_pic.heic" alt="My Picture" class="profile-pic">
   <h3>Contact Information</h3>
-  <p>Email: <a href="mailto:catherine.fontaine2@mail.mcgill.ca">your-email@example.com</a></p>
+  <p>Email: <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
   <p>LinkedIn: <a href="www.linkedin.com/in/catherine-f-236796206" target="_blank">Your LinkedIn</a></p>
 </div>
 
