@@ -2,8 +2,8 @@
 layout: default
 title: Other Experiences
 ---
-
-### Service
+## Other Experiences
+### Service work
 
 During the last two years of my undergrad, I was involved with the McGill Artificial Intelligence Society, a club that’s very dear to me. AI is a complex field to master, but these days, it’s such an essential tool to have in anyone’s toolbox. This club provides a welcoming space for beginners to dive deeper into the topic and learn more about its importance as a key research area in both academia and industry.
 
