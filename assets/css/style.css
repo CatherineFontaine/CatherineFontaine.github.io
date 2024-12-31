@@ -98,3 +98,14 @@ h4, h5, h6 {
     font-weight: bold;
     margin-top: 20px;
 }
+
+.header-name {
+    background-color: #4a90e2; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 1.5em; 
+    font-weight: bold; 
+    text-align: center; 
+    display: inline-block; 
+    border-radius: 8px; 
+}
