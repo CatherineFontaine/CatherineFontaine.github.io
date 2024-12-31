@@ -61,3 +61,35 @@
     clear: both;
 }
 
+h1 {
+    font-size: 2.5em; /* Larger font size */
+    font-family: 'Georgia', serif; /* Elegant font */
+    color: #333; /* Dark gray color */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Space below */
+}
+
+h2 {
+    font-size: 2em; /* Slightly smaller than H1 */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    color: #0056b3; /* Blue color */
+    border-bottom: 2px solid #ddd; /* Add an underline */
+    padding-bottom: 5px; /* Space between text and underline */
+    margin-top: 30px; /* Space above the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+h3 {
+    font-size: 1.75em;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
