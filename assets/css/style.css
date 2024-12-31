@@ -1,20 +1,21 @@
-/* CSS for the layout */
+/* Add these styles to your assets/css/style.css file */
+
+/* Sidebar styles */
 .container {
   display: flex;
-  justify-content: flex-start;
   margin-top: 20px;
 }
 
 .sidebar {
-  width: 200px;  /* Adjust the width of the sidebar */
-  padding: 10px;
+  width: 250px;
+  padding: 15px;
   background-color: #f4f4f4;
 }
 
 .content {
-  margin-left: 220px;  /* Add space for the sidebar */
+  margin-left: 270px;
   padding: 20px;
-  width: calc(100% - 220px);
+  width: calc(100% - 270px);
 }
 
 .sidebar ul {
