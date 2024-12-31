@@ -3,7 +3,7 @@ layout: default
 title: Other Experiences
 ---
 
-McGill Artificial Intelligence Society
+### Service
 
 During the last two years of my undergrad, I was involved with the McGill Artificial Intelligence Society, a club that’s very dear to me. AI is a complex field to master, but these days, it’s such an essential tool to have in anyone’s toolbox. This club provides a welcoming space for beginners to dive deeper into the topic and learn more about its importance as a key research area in both academia and industry.
 
@@ -11,6 +11,6 @@ In my first year, I worked as VP Events, and I had the opportunity to organize t
 
 This year, I started off on the podcast team, reaching out to AI leaders in both industry and academia to plan interviews for our podcast. By the end of the fall semester, I returned to the Events team to help make this year’s hackathon a success. The event will be held on February 1st-2nd, and all the details and the application form can be found here.
 
-Work Experience 
+### Work Experience 
 
 I worked part-time at a hardware store throughout most of my undergrad, which taught me a lot about time management, as I had to balance my job with my studies.
