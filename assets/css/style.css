@@ -56,8 +56,8 @@
 }
 
 .contact-icon {
-    width: 20px; /* Adjust size of the icon */
-    height: 20px; /* Keep the icon square */
+    width: 30px; /* Adjust size of the icon */
+    height: 30px; /* Keep the icon square */
     margin-right: 10px; /* Space between the icon and the text */
     vertical-align: middle; /* Align icons vertically with the text */
 }
