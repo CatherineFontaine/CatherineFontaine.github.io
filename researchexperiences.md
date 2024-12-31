@@ -1,3 +1,8 @@
+---
+layout: sidebar
+title: Research Experiences
+---
+
 I want to express my gratitude to the professors at McGill who gave me incredible research opportunities and helped solidify my decision to pursue further studies. During my undergraduate years, my research focused on three main topics: random trees, differential privacy and Littlestone dimension, and modular forms.
 
 Random Trees
