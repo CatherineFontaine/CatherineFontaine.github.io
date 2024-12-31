@@ -55,6 +55,19 @@
     object-fit: cover;
 }
 
+.contact-icon {
+    width: 20px; /* Adjust size of the icon */
+    height: 20px; /* Keep the icon square */
+    margin-right: 10px; /* Space between the icon and the text */
+    vertical-align: middle; /* Align icons vertically with the text */
+}
+
+
+.contact-info {
+    font-size: 1.1em; /* Increase font size slightly */
+    color: #333; /* Text color for contrast */
+}
+
 .content::after {
     content: "";
     display: table;
