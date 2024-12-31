@@ -123,6 +123,10 @@ header {
     padding: 40px 0;
 }
 
+.header-image {
+    width: 100%; /* Makes the image span the entire width */
+    height: auto; /* Maintains the aspect ratio */
+}
 
 .header-name {
     font-size: 2.5em;
