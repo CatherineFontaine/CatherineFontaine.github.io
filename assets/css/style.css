@@ -114,13 +114,33 @@ h4, h5, h6 {
 }
 
 header {
-    background-image: url('header.png'); /* Path to your image */
-    background-size: cover; /* Make sure the image covers the whole header */
-    background-position: center center; /* Center the image in the header */
-    height: 300px; /* Set the height of the header */
-    color: white; /* Adjust text color for visibility */
-    text-align: center;
-    padding: 40px 0;
+    background-image: url('assets/images/your-image.jpg'); /* Your header image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center center; /* Keep the image centered */
+    height: 300px; /* Adjust the height of the header */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text */
+    padding: 40px 0; /* Adjust padding for spacing */
+    position: relative; /* Allows positioning of elements inside the header */
+}
+
+header {
+    margin-bottom: 0; /* Remove bottom margin from the header */
+}
+
+/* Optional */
+section {
+    margin-top: 20px; /* Adjust the space below the header */
+}
+
+header h1 {
+    font-size: 3em; /* Adjust font size */
+    margin: 0; /* Remove any margin that might be applied */
+}
+
+/* Optional */
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow to make it stand out more */
 }
 
 .header-image {
@@ -128,8 +148,3 @@ header {
     height: auto; /* Maintains the aspect ratio */
 }
 
-.header-name {
-    font-size: 2.5em;
-    font-weight: bold; 
-    font-family: 'Arial', sans-serif;
-}
