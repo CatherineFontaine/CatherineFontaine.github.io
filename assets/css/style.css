@@ -137,5 +137,5 @@ header h1 {
 
 /* Optional */
 header h1 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow to make it stand out more */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a shadow to make it stand out more */
 }
