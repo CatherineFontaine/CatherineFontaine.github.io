@@ -9,7 +9,7 @@ title: Home
   <img src="my_pic.heic" alt="My Picture" class="profile-pic">
   <h3>Contact Information</h3>
   <div class="contact-info">
-    <p><img src="email-icon.png" alt="Email" class="contact-icon"> catherine.fontaine2@mail.mcgill.ca</p>
+    <p><img src="email-icon.png" alt="Email" class="contact-icon"> <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
     <p><img src="linkedin-icon.png" alt="LinkedIn" class="contact-icon"> <a href="https:/www.linkedin.com/in/catherine-f-236796206" target="_blank">Catherine Fontaine</a></p>
   </div>
 </div>
