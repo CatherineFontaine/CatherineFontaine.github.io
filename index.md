@@ -9,3 +9,8 @@ Publications
 Optimal root recovery for uniform attachment trees and d-regular growing trees joint work with Louigi Addario-Berry, Simone Têtu, Robin Khanfir and Louis-Roy Langevin.
 
 Abstract: We consider root-finding algorithms for random rooted trees grown by uniform attachment. Given an unlabeled copy of the tree and a target accuracy ε>0, such an algorithm outputs a set of nodes that contains the root with probability at least 1−ε. We prove that, for the optimal algorithm, an output set of size exp(O(log1/2(1/ε))) suffices; this bound is sharp and answers a question of Bubeck, Devroye and Lugosi (2017). We prove similar bounds for random regular trees that grow by uniform attachment, strengthening a result of Khim and Loh (2017).
+
+- [Resume](resume.pdf)
+- [Research experiences](researchexperiences.md)  
+- [Presentations](presentations.md)
+- [Other experiences](otherexperiences.md)
