@@ -117,7 +117,7 @@ header {
     background-image: url('/assets/images/header.png');
     background-size: cover;
     background-position: center center;
-    height: 300px;
+    height: 200px;
     color: white;
     text-align: center;
     padding: 0;
@@ -126,7 +126,7 @@ header {
 
 /* Ensure the name is on top of the image */
 header h1 {
-    font-size: 3em; /* Adjust the font size of your name */
+    font-size: 3.5em; /* Adjust the font size of your name */
     margin: 0; /* Remove any default margin */
     position: absolute; /* Position the text absolutely within the header */
     top: 50%; /* Position the text vertically in the center */
