@@ -100,7 +100,7 @@ h4, h5, h6 {
 }
 
 header {
-    background: linear-gradient(to right, #aee1f9, #4a90e2); /* Light blue to a deeper blue */
+    background: linear-gradient(to right, #92CBE5, #4382CC); /* Light blue to a deeper blue */
     color: #333; /* Text color for contrast */
     text-align: center;
     padding: 40px 0;
