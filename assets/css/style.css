@@ -82,7 +82,7 @@ p {
 h1 {
     font-size: 2em; /* Larger font size */
     font-family: 'Georgia', serif; /* Elegant font */
-    color: #333; /* Dark gray color */
+    color: #376EAF; 
     text-align: center; /* Centered text */
     margin-bottom: 20px; /* Space below */
 }
@@ -148,5 +148,5 @@ header h1 {
 
 /* Optional */
 header h1 {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a shadow to make it stand out more */
+    text-shadow: 4px 4px 8px rgba(55, 110, 175, 0.7); /* Add a shadow to make it stand out more */
 }
