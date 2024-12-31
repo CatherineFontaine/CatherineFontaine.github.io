@@ -8,8 +8,10 @@ title: Home
 <div class="right-block">
   <img src="my_pic.heic" alt="My Picture" class="profile-pic">
   <h3>Contact Information</h3>
-  <p>Email: <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
-  <p>LinkedIn: <a href="www.linkedin.com/in/catherine-f-236796206" target="_blank">Your LinkedIn</a></p>
+  <div class="contact-info">
+    <p><img src="email-icon.png" alt="Email" class="contact-icon"> catherine.fontaine2@mail.mcgill.ca</p>
+    <p><img src="linkedin-icon.png" alt="LinkedIn" class="contact-icon"> <a href="https:/www.linkedin.com/in/catherine-f-236796206" target="_blank">Catherine Fontaine</a></p>
+  </div>
 </div>
 
 My name is Catherine Fontaine and I use she/her and they/them pronouns. I’m finishing my Honours Mathematics and Computer Science degree at McGill and planning to dive into a master’s in mathematics next year! After doing a bootcamp in machine learning by the McGill Artificial Intelligence Society, I became interested in applying probabilistic methods to create efficient algorithms. 
