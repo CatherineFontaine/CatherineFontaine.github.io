@@ -114,8 +114,11 @@ h4, h5, h6 {
 }
 
 header {
-    background: linear-gradient(to right, #aee1f9, #4a90e2); /* Light blue to a deeper blue */
-    color: #333; /* Text color for contrast */
+    background-image: url('header.jpg'); /* Path to your image */
+    background-size: cover; /* Make sure the image covers the whole header */
+    background-position: center center; /* Center the image in the header */
+    height: 300px; /* Set the height of the header */
+    color: white; /* Adjust text color for visibility */
     text-align: center;
     padding: 40px 0;
 }
