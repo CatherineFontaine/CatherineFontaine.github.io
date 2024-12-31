@@ -114,14 +114,14 @@ h4, h5, h6 {
 }
 
 header {
-    background-image: url('{{ "/assets/images/header.png" | relative_url }}'); /* Your header image */
-    background-size: cover; /* Ensure the image covers the header */
-    background-position: center center; /* Keep the image centered */
-    height: 300px; /* Adjust the height of the header */
-    color: white; /* Set the text color to white */
-    text-align: center; /* Center the text */
-    padding: 0; /* Remove padding (important for absolute positioning) */
-    position: relative; /* This is important for absolute positioning of child elements */
+    background-image: url('/assets/images/header.png');
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: relative;
 }
 
 /* Ensure the name is on top of the image */
