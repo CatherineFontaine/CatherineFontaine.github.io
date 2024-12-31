@@ -120,31 +120,22 @@ header {
     height: 300px; /* Adjust the height of the header */
     color: white; /* Set the text color to white */
     text-align: center; /* Center the text */
-    padding: 40px 0; /* Adjust padding for spacing */
-    position: relative; /* Allows positioning of elements inside the header */
+    padding: 0; /* Remove padding (important for absolute positioning) */
+    position: relative; /* This is important for absolute positioning of child elements */
 }
 
-header {
-    margin-bottom: 0; /* Remove bottom margin from the header */
-}
-
-/* Optional */
-section {
-    margin-top: 20px; /* Adjust the space below the header */
-}
-
+/* Ensure the name is on top of the image */
 header h1 {
-    font-size: 3em; /* Adjust font size */
-    margin: 0; /* Remove any margin that might be applied */
+    font-size: 3em; /* Adjust the font size of your name */
+    margin: 0; /* Remove any default margin */
+    position: absolute; /* Position the text absolutely within the header */
+    top: 50%; /* Position the text vertically in the center */
+    left: 50%; /* Position the text horizontally in the center */
+    transform: translate(-50%, -50%); /* Correct the centering */
+    z-index: 1; /* Ensure the text is above the background */
 }
 
 /* Optional */
 header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow to make it stand out more */
 }
-
-.header-image {
-    width: 100%; /* Makes the image span the entire width */
-    height: auto; /* Maintains the aspect ratio */
-}
-
