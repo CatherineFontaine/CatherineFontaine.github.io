@@ -2,7 +2,7 @@
 layout: default
 title: Presentations
 ---
-
+## Presentations
 #### Summer Undergraduate Research Conference at McGill University, 2023
 Computing Counterexamples to Serre’s Modularity Conjecture
 Along with Rhys Aron and Zack Horton, we presented the work we accomplished during the summer under the supervision of Patrick Allen.
