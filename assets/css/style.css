@@ -195,16 +195,14 @@ p {
 
   /* Hide sidebar by default on mobile */
   .sidebar {
-    width: 250px;
-    height: auto;
-    padding: 15px;
-    background-color: #f4f4f4;
-    position: relative;
+    display: none;
+    width: 100%;
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 10;
-    transition: all 0.3s ease;
-    display: none; /* Space for hamburger button */
+    background-color: #f4f4f4;
+    padding-top: 60px; /* Add space for hamburger button */
+    z-index: 1; /* Space for hamburger button */
   }
 
   /* When sidebar is toggled, show it */
@@ -215,6 +213,12 @@ p {
   /* Show the hamburger icon */
   .hamburger {
     display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
   }
 
   /* Adjust content width */
