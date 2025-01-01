@@ -53,21 +53,20 @@
   object-fit: cover;
 }
 
-.contact-icon {
-  width: 30px; /* Icon size */
-  height: 30px; /* Icon size */
-  margin-right: 10px; /* Space between the icon and text */
-  vertical-align: middle; /* Align icon with the text */
-  display: inline-block; /* Ensures proper alignment */
+.contact-info {
+    font-size: 1.1em; /* Increase font size slightly */
+    color: #333; /* Text color */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Space between icon and text */
+    margin-bottom: 10px; /* Add some space between each item */
 }
 
-.contact-info {
-  font-size: 1.1em; /* Increase font size slightly */
-  color: #333; /* Text color */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Vertically align items */
-  gap: 10px; /* Space between icon and text */
-  justify-content: flex-start; /* Ensure proper alignment */
+.contact-icon {
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    display: inline-block; /* Keeps the icon inline */
+    flex-shrink: 0; /* Prevent icons from shrinking */
 }
 
 .content::after {
