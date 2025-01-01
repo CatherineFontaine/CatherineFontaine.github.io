@@ -201,7 +201,7 @@ p {
     left: 0;
     background-color: #f4f4f4;
     padding-top: 60px; /* Add space for hamburger button */
-    z-index: 1; /* Space for hamburger button */
+    z-index: 10; /* Space for hamburger button */
   }
 
   /* When sidebar is toggled, show it */
@@ -217,7 +217,7 @@ p {
     right: 20px;
     font-size: 30px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 10;
   }
 
   /* Adjust content width */
