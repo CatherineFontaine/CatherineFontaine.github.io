@@ -83,17 +83,17 @@ header h1 {
   z-index: 10;
 }
 
-/* Sidebar Style (for larger screens like your Mac) */
 .sidebar {
   width: 250px;
-  height: 100vh; /* Full height */
+  height: 100vh;
   padding: 15px;
   background-color: #f4f4f4;
-  position: fixed; /* Fixed sidebar */
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1; /* Sidebar stays on top of the content */
-  transition: all 0.3s ease; /* Smooth transition */
+  z-index: 1;
+  transition: all 0.3s ease;
+  display: none; /* Sidebar is hidden by default */
 }
 
 .container {
