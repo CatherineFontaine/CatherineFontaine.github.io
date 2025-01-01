@@ -21,11 +21,11 @@
   <header>
     <h1>Catherine Fontaine</h1>
     <!-- Hamburger menu button -->
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class=".hamburger" onclick="toggleMenu()">☰</div>
   </header>
 
   <!-- Sidebar navigation -->
-  <div class="sidebar" id="sidebar">
+  <div class=".sidebar" id="sidebar">
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
       <li><a href="{{ site.baseurl }}/resume.pdf" target="_blank">Resume</a></li>
@@ -45,7 +45,7 @@
 
   <script>
     function toggleMenu() {
-      const sidebar = document.getElementById('sidebar');
+      const sidebar = document.getElementById('.sidebar');
       sidebar.classList.toggle('show');
     }
   </script>
