@@ -105,6 +105,7 @@ header h1 {
 
 .content {
   margin-left: 270px; /* Adjusted for sidebar space */
+  margin-top: 10px
   padding: 20px;
   width: calc(100% - 270px); /* Adjust content width for sidebar */
 }
