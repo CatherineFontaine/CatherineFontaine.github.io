@@ -54,15 +54,19 @@
 }
 
 .contact-icon {
-  width: 30px; /* Adjust size of the icon */
-  height: 30px; /* Keep the icon square */
-  margin-right: 10px; /* Space between the icon and the text */
-  vertical-align: middle; /* Align icons vertically with the text */
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    margin-right: 10px; /* Space between the icon and text */
+    vertical-align: middle; /* Align icon with the text */
+    display: inline-block; /* Ensures proper alignment */
 }
 
 .contact-info {
-  font-size: 1.1em; /* Increase font size slightly */
-  color: #333; /* Text color for contrast */
+    font-size: 1.1em; /* Increase font size slightly */
+    color: #333; /* Text color */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Space between icon and text */
 }
 
 .content::after {
