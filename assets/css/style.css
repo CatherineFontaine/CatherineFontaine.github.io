@@ -1,13 +1,44 @@
-/* Default sidebar behavior (for larger screens like your Mac) */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Style */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Sidebar Style (for larger screens like your Mac) */
 .sidebar {
   width: 250px;
-  height: 100vh; /* Make it take full height of the screen */
+  height: 100vh; /* Full height */
   padding: 15px;
   background-color: #f4f4f4;
-  position: fixed; /* Fix it to the left side */
+  position: fixed; /* Fixed sidebar */
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1; /* Sidebar stays on top of the content */
   transition: all 0.3s ease; /* Smooth transition */
 }
 
@@ -17,62 +48,12 @@
 }
 
 .content {
-  margin-left: 270px; /* Make space for the sidebar */
+  margin-left: 270px; /* Adjusted for sidebar space */
   padding: 20px;
-  width: calc(100% - 270px); /* Adjust content width */
+  width: calc(100% - 270px); /* Adjust content width for sidebar */
 }
 
-/* Mobile-specific styles (keep the hamburger menu and collapsing sidebar) */
-@media (max-width: 768px) {
-  .sidebar {
-    display: none; /* Initially hide sidebar on mobile */
-    position: absolute; /* Position it absolutely */
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width on mobile */
-    background-color: #f4f4f4;
-    padding-top: 60px; /* Space for the hamburger menu */
-  }
-
-  .hamburger {
-    display: block; /* Show the hamburger menu on mobile */
-  }
-
-  .sidebar.show {
-    display: block; /* Show sidebar when hamburger is clicked */
-  }
-
-  .content {
-    margin-left: 0; /* Full width on mobile */
-    width: 100%; /* Adjust content width */
-  }
-
-  .right-block {
-    width: 100%; /* Make right-block full-width on mobile */
-  }
-}
-
-/* Your existing CSS */
-
-/* Sidebar styles */
-.container {
-  display: flex;
-  margin-top: 20px;
-}
-
-.sidebar {
-  width: 250px;
-  padding: 15px;
-  background-color: #f4f4f4;
-  transition: all 0.3s ease; /* Smooth transition for opening/closing */
-}
-
-.content {
-  margin-left: 50px;
-  padding: 20px;
-  width: calc(100% - 270px);
-}
-
+/* Sidebar Menu Styling */
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -91,7 +72,7 @@
   color: #007bff;
 }
 
-/* Right-block styles */
+/* Right Block Styles (Profile Section) */
 .right-block {
   width: 325px;
   padding: 15px;
@@ -126,21 +107,17 @@
   gap: 10px;
 }
 
-.content::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/* MOBILE STYLES */
 
-/* Responsive styles for smaller screens */
+/* For smaller screens (mobile) */
 @media (max-width: 768px) {
-  /* Stack the layout vertically */
+  /* Stack elements vertically on mobile */
   .container {
     flex-direction: column;
-    margin-top: 10px; /* Reduce the top margin */
+    margin-top: 10px;
   }
 
-  /* Sidebar takes full width on small screens */
+  /* Hide sidebar by default on mobile */
   .sidebar {
     display: none;
     position: absolute;
@@ -149,28 +126,33 @@
     width: 100%;
     background-color: #f4f4f4;
     z-index: 1;
-    padding-top: 60px; /* Space for the hamburger menu */
+    padding-top: 60px; /* Space for hamburger button */
   }
 
-  /* Display the hamburger menu */
+  /* Show the hamburger icon */
   .hamburger {
     display: block;
   }
 
-  /* Adjust content */
+  /* When sidebar is toggled, show it */
+  .sidebar.show {
+    display: block;
+  }
+
+  /* Adjust content width */
   .content {
     margin-left: 0;
     width: 100%;
   }
 
-  /* Right-block adjustments */
+  /* Make right block full width */
   .right-block {
     width: 100%;
     float: none;
     margin: 0 auto;
   }
 
-  /* Profile picture adjustment */
+  /* Adjust profile picture size on mobile */
   .profile-pic {
     width: 200px;
     height: 200px;
