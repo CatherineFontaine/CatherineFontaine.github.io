@@ -211,3 +211,142 @@ img {
     flex-direction: column; /* Stack icons and text vertically */
   }
 }
+
+/* Sidebar styles */
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+
+.content {
+  margin-left: 50px;
+  padding: 20px;
+  width: calc(100% - 270px);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
+
+/* New styles for Hamburger Menu */
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 1.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+/* Show sidebar when it's toggled */
+.sidebar.show {
+  display: block;
+}
+
+/* Profile and other right-block styles */
+.right-block {
+  width: 325px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  float: right;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contact-info {
+  font-size: 1.1em;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Stack layout vertically */
+  .container {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  /* Sidebar takes full width on small screens */
+  .sidebar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    z-index: 1;
+    padding-top: 60px;
+  }
+
+  /* Display the hamburger menu */
+  .hamburger {
+    display: block;
+  }
+
+  /* Adjust content */
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Right-block adjustments */
+  .right-block {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  /* Profile picture adjustment */
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
+
