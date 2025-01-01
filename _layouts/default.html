@@ -20,27 +20,34 @@
 <body>
   <header>
     <h1>Catherine Fontaine</h1>
+    <!-- Hamburger menu button -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
   </header>
 
-  <!-- Main content area with sidebar -->
-  <div class="container">
-    <div class="sidebar">
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="{{ site.baseurl }}/researchexperiences">Research experiences</a></li>
-        <li><a href="{{ site.baseurl }}/presentations">Presentations</a></li>
-        <li><a href="{{ site.baseurl }}/otherexperiences">Other experiences</a></li>
-      </ul>
-    </div>
+  <!-- Sidebar navigation -->
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      <li><a href="{{ site.baseurl }}/resume.pdf" target="_blank">Resume</a></li>
+      <li><a href="{{ site.baseurl }}/researchexperiences">Research experiences</a></li>
+      <li><a href="{{ site.baseurl }}/presentations">Presentations</a></li>
+      <li><a href="{{ site.baseurl }}/otherexperiences">Other experiences</a></li>
+    </ul>
+  </div>
 
-    <div class="content">
-      {{ content }}
-    </div>
+  <div class="content">
+    {{ content }}
   </div>
 
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }}</p>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
