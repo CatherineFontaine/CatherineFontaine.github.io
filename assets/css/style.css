@@ -59,7 +59,7 @@ header::before {
   right: 0;
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.3);
-  z-index: 1;
+  z-index: 2;
 }
 
 header h1 {
@@ -69,7 +69,7 @@ header h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 2;
   text-shadow: 4px 4px 8px rgba(55, 110, 175, 0.7);
 }
 
@@ -93,7 +93,6 @@ header h1 {
   left: 0;
   z-index: 1;
   transition: all 0.3s ease;
-  display: none; /* Sidebar is hidden by default */
 }
 
 .container {
@@ -193,14 +192,16 @@ p {
 
   /* Hide sidebar by default on mobile */
   .sidebar {
-    display: none;
-    position: absolute;
+    width: 250px;
+    height: 100vh;
+    padding: 15px;
+    background-color: #f4f4f4;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background-color: #f4f4f4;
     z-index: 1;
-    padding-top: 60px; /* Space for hamburger button */
+    transition: all 0.3s ease;
+    display: none; /* Space for hamburger button */
   }
 
   /* Show the hamburger icon */
