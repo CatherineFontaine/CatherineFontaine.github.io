@@ -12,7 +12,8 @@ title: Home
     <p><img src="email-icon.png" alt="Email" class="contact-icon"> <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
     <p><img src="linkedin-icon.png" alt="LinkedIn" class="contact-icon"> <a href="https://www.linkedin.com/in/catherine-f-236796206" target="_blank">My LinkedIn</a></p>
   </div>
-</div>
+</div>  
+
 
 My name is Catherine Fontaine and I use she/her and they/them pronouns. I’m finishing my Honours Mathematics and Computer Science degree at McGill and planning to dive into a master’s in mathematics next year! After doing a bootcamp in machine learning given by the *McGill Artificial Intelligence Society,* I became interested in applying probabilistic methods to create efficient algorithms. 
 
