@@ -223,7 +223,7 @@ p {
   /* Adjust content width */
   .content {
     margin-left: 0;
-    width: 100%;
+    width: 90%;
   }
 
   /* Make right block full width */
