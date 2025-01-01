@@ -56,12 +56,13 @@
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Adds space between the items */
+  gap: 10px; /* Adds space between each row */
 }
 
 .contact-info p {
   display: flex;
   align-items: center; /* Align icon and text vertically */
+  justify-content: flex-start; /* Ensure everything aligns to the left */
   gap: 8px; /* Space between icon and text */
   margin: 0;
 }
