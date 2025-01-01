@@ -136,6 +136,10 @@ header h1 {
   float: right;
   margin-left: 20px;
   text-align: center;
+
+  flex-direction: column;
+  justify-content: center; /* Centers the profile picture vertically */
+  align-items: center;
 }
 
 .profile-pic {
