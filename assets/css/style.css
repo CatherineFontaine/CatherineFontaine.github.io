@@ -228,7 +228,7 @@ p {
 
   /* Make right block full width */
   .right-block {
-    width: 100%;
+    width: 90%;
     float: none;
     margin: 0 auto;
   }
