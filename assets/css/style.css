@@ -80,6 +80,7 @@ header h1 {
   right: 20px;
   font-size: 30px;
   cursor: pointer;
+  z-index: 10;
 }
 
 /* Sidebar Style (for larger screens like your Mac) */
