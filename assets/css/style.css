@@ -222,7 +222,7 @@ p {
 
   /* Adjust content width */
   .content {
-    margin-left: 10;
+    margin-left: 1;
     width: 90%;
   }
 
@@ -230,7 +230,7 @@ p {
   .right-block {
     width: 90%;
     float: none;
-    margin-left: 10;
+    margin-left: 1;
   }
 
   /* Adjust profile picture size on mobile */
