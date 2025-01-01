@@ -21,11 +21,11 @@
   <header>
     <h1>Catherine Fontaine</h1>
     <!-- Hamburger menu button -->
-    <div class=".hamburger" onclick="toggleMenu()">☰</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
   </header>
 
   <!-- Sidebar navigation -->
-  <div class=".sidebar" id="sidebar">
+  <div class="sidebar" id="sidebar">
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
       <li><a href="{{ site.baseurl }}/resume.pdf" target="_blank">Resume</a></li>
@@ -49,16 +49,5 @@
       sidebar.classList.toggle('show');
     }
   </script>
-  <script>
-    // Get the hamburger icon and sidebar elements
-    const hamburger = document.querySelector('.hamburger');
-    const sidebar = document.querySelector('.sidebar');
-
-    // Toggle the 'show' class when the hamburger icon is clicked
-    hamburger.addEventListener('click', () => {
-      sidebar.classList.toggle('show');
-    });
-  </script>
-
 </body>
 </html>
