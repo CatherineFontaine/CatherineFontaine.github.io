@@ -5,19 +5,72 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Arial', sans-serif;
+  color: #4382CC;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Verdana', sans-serif;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
 /* Header Style */
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
+  background-image: url('/assets/images/header.png');
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  color: #333;
   text-align: center;
+  padding: 0;
   position: relative;
-  z-index: 2;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 1;
 }
 
 header h1 {
+  font-size: 3.5em;
   margin: 0;
-  font-size: 1.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-shadow: 4px 4px 8px rgba(55, 110, 175, 0.7);
 }
 
 .hamburger {
@@ -92,19 +145,35 @@ header h1 {
   object-fit: cover;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+
 .contact-icon {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
-.contact-info {
-  font-size: 1.1em;
-  color: #333;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
 /* MOBILE STYLES */
