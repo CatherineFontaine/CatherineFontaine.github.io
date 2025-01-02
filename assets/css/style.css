@@ -210,13 +210,13 @@ footer p {
 
 /* For smaller screens (mobile) */
 @media (max-width: 768px) {
-  /* Stack elements vertically on mobile */
+  /* Adjust content width */
   .container {
     display: flex;
     flex-direction: column;
     margin: 0 auto; 
     padding: 10px;
-    max-width: 95%;
+    max-width: 95%; /* Ensure it doesn't stretch too wide */
   }
 
   /* Hide sidebar by default on mobile */
@@ -247,21 +247,24 @@ footer p {
     z-index: 10;
   }
 
-  /* Adjust content width */
+  /* Center the content */
   .content {
-    margin: 10px auto; /* Center the content horizontally */
+    margin: 10px auto; /* Center horizontally */
     padding: 20px;
-    width: calc(100% - 10px); /* Ensure there's a small margin on both sides */
-    max-width: 95%; /* Prevent it from stretching too wide */
+    width: 100%; /* Fill container */
+    max-width: 95%; /* Prevent stretching too wide */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
 
+  /* Center the right block */
   .right-block {
-    margin: 10px auto; /* Center the right block horizontally */
+    margin: 10px auto; /* Center horizontally */
     padding: 20px;
-    width: calc(100% - 10px); /* Ensure there's a small margin on both sides */
-    max-width: 95%; /* Prevent it from stretching too wide */
-    background-color: #fff; /* Optional: Add background for clarity */
+    width: 100%; /* Fill container */
+    max-width: 95%; /* Prevent stretching too wide */
+    background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding in width calculation */
   }
 
   /* Adjust profile picture size on mobile */
