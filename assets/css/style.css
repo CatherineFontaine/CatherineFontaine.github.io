@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media (min-width: 768px) {
+  body {
+    margin-right: 10px; /* Apply a 10px margin to the right */
+  }
+}
 
 h1 {
   font-size: 2em;
@@ -225,16 +230,17 @@ p {
 
   /* Adjust content width */
   .content {
-    margin: 20px 2%; 
+    margin: 20px auto; /* Center the content */
     padding: 20px;
-    width: 90%;
+    max-width: calc(100% - 10px); /* Ensure max margin of 5px on each side */
+    width: 90%; /* Default width for smaller screens */
   }
 
-  /* Make right block full width */
   .right-block {
-    width: 90%; 
-    margin: 10px auto; 
+    margin: 10px auto; /* Center the right block */
     padding: 20px;
+    max-width: calc(100% - 10px); /* Ensure max margin of 5px on each side */
+    width: 90%; /* Default width for smaller screens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     background-color: #fff;
   }
