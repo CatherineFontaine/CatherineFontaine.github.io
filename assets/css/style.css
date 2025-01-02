@@ -15,6 +15,10 @@
   }
 }
 
+.copyright-symbol {
+  font-size: 1.5em; /* Increase size of the copyright symbol */
+}
+
 h1 {
   font-size: 2em;
   font-family: 'Georgia', serif;
