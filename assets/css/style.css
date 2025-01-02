@@ -5,8 +5,13 @@
   box-sizing: border-box;
 }
 @media (min-width: 768px) {
-  .container, .content, .sidebar, .right-block {
-    margin-right: 20px; /* Add the right margin to everything else */
+  body {
+    margin-right: 10px;
+  }
+
+  /* Exclude the header from the margin */
+  header {
+    margin-right: 0;
   }
 }
 
