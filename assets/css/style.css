@@ -202,7 +202,6 @@ p {
     background-color: #f4f4f4;
     padding-top: 60px; /* Add space for hamburger button */
     z-index: 10; /* Space for hamburger button */
-    margin-bottom: 1px;
   }
 
   /* When sidebar is toggled, show it */
@@ -223,20 +222,24 @@ p {
 
   /* Adjust content width */
   .content {
-    margin-left: 1;
+    margin: 20px 5%; 
+    padding: 20px;
     width: 90%;
   }
 
   /* Make right block full width */
   .right-block {
-    width: 90%;
-    float: none;
-    margin-left: ;
+    width: 90%; 
+    margin: 20px auto; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
   }
 
   /* Adjust profile picture size on mobile */
   .profile-pic {
     width: 200px;
     height: 200px;
+    margin: 0 auto;
   }
 }
