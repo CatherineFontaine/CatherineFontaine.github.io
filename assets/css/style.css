@@ -94,6 +94,7 @@ header h1 {
   z-index: 1;
   transition: all 0.3s ease;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .container {
@@ -223,7 +224,7 @@ p {
 
   /* Adjust content width */
   .content {
-    margin: 20px 5%; 
+    margin: 20px 2%; 
     padding: 20px;
     width: 90%;
   }
@@ -231,7 +232,7 @@ p {
   /* Make right block full width */
   .right-block {
     width: 90%; 
-    margin: 20px 5%; 
+    margin: 20px 2%; 
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     background-color: #fff;
