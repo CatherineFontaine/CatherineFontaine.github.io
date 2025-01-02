@@ -49,5 +49,15 @@
       sidebar.classList.toggle('show');
     }
   </script>
+  <footer>
+    <p id="last-updated"></p>
+  </footer>
+
+  <script>
+    const lastUpdatedDate = new Date(document.lastModified); // Gets the last modified date
+    const options = { year: 'numeric', month: 'long' }; // Formats as "Month Year"
+    document.getElementById('last-updated').textContent = 
+      `Last updated: ${lastUpdatedDate.toLocaleDateString('en-US', options)}`;
+  </script>
 </body>
 </html>
