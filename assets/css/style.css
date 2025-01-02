@@ -196,8 +196,11 @@ p {
 @media (max-width: 768px) {
   /* Stack elements vertically on mobile */
   .container {
+    display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin: 0 auto; 
+    padding: 10px;
+    max-width: 95%;
   }
 
   /* Hide sidebar by default on mobile */
@@ -230,19 +233,21 @@ p {
 
   /* Adjust content width */
   .content {
-    margin: 20px auto; /* Center the content */
+    margin: 10px auto; /* Center the content horizontally */
     padding: 20px;
-    max-width: calc(100% - 10px); /* Ensure max margin of 5px on each side */
-    width: 90%; /* Default width for smaller screens */
+    width: calc(100% - 10px); /* Ensure there's a small margin on both sides */
+    max-width: 95%; /* Prevent it from stretching too wide */
+    background-color: #fff; /* Optional: Add background for clarity */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .right-block {
-    margin: 10px auto; /* Center the right block */
+    margin: 10px auto; /* Center the right block horizontally */
     padding: 20px;
-    max-width: calc(100% - 10px); /* Ensure max margin of 5px on each side */
-    width: 90%; /* Default width for smaller screens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    background-color: #fff;
+    width: calc(100% - 10px); /* Ensure there's a small margin on both sides */
+    max-width: 95%; /* Prevent it from stretching too wide */
+    background-color: #fff; /* Optional: Add background for clarity */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   /* Adjust profile picture size on mobile */
