@@ -5,12 +5,18 @@
   box-sizing: border-box;
 }
 @media (min-width: 768px) {
-  body {
+  /* Apply the right margin only to the main content container */
+  .main-content {
     margin-right: 10px;
   }
 
-  /* Exclude the header from the margin */
+  /* Reset right margin for the header */
   header {
+    margin-right: 0;
+  }
+
+  /* Reset right margin for the footer, if necessary */
+  footer {
     margin-right: 0;
   }
 }
