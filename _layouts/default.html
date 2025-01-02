@@ -46,14 +46,14 @@
     }
   </script>
   <footer>
-    <p &copy; id="last-updated"></p>
+    <p id="last-updated"></p>
   </footer>
 
   <script>
     const lastUpdatedDate = new Date(document.lastModified); // Gets the last modified date
     const options = { year: 'numeric', month: 'long' }; // Formats as "Month Year"
     document.getElementById('last-updated').textContent = 
-      `${lastUpdatedDate.toLocaleDateString('en-US', options)} Catherine Fontaine`;
+      `&copy ${lastUpdatedDate.toLocaleDateString('en-US', options)} Catherine Fontaine`;
   </script>
 </body>
 </html>
