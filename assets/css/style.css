@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 @media (min-width: 768px) {
-  body {
-    margin-right: 10px; /* Apply a 10px margin to the right */
+  .container, .content, .sidebar, .right-block {
+    margin-right: 20px; /* Add the right margin to everything else */
   }
 }
 
