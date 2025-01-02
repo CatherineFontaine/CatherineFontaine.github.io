@@ -53,7 +53,7 @@
     const lastUpdatedDate = new Date(document.lastModified); // Gets the last modified date
     const options = { year: 'numeric', month: 'long' }; // Formats as "Month Year"
     document.getElementById('last-updated').textContent = 
-      `&copy ${lastUpdatedDate.toLocaleDateString('en-US', options)} Catherine Fontaine`;
+      `<span class="copyright-symbol">&copy;</span> ${lastUpdatedDate.toLocaleDateString('en-US', options)} Catherine Fontaine`;
   </script>
 </body>
 </html>
