@@ -7,11 +7,11 @@ lang: fr
 ## Bienvenue sur mon site web! 
 
 <div class="right-block">
-  <img src="/my_pic.heic" alt="My Picture" class="profile-pic">
+  <img src="/assets/images/my_pic.heic" alt="My Picture" class="profile-pic">
   <h3>Coordonées</h3>
   <div class="contact-info">
-    <p><img src="/email-icon.png" alt="Email" class="contact-icon"> <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
-    <p><img src="/linkedin-icon.png" alt="LinkedIn" class="contact-icon"> <a href="https://www.linkedin.com/in/catherine-f-236796206" target="_blank">mon LinkedIn</a></p>
+    <p><img src="/assets/images/email-icon.png" alt="Email" class="contact-icon"> <a href="mailto:catherine.fontaine2@mail.mcgill.ca">catherine.fontaine2@mail.mcgill.ca</a></p>
+    <p><img src="/assets/images/linkedin-icon.png" alt="LinkedIn" class="contact-icon"> <a href="https://www.linkedin.com/in/catherine-f-236796206" target="_blank">mon LinkedIn</a></p>
   </div>
 </div>  
 
