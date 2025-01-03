@@ -8,24 +8,17 @@ Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes 
 
 ### Les arbres aléatoires
 
-In the summer of 2024, I received the *NSERC Undergraduate Student Research Award (USRA)* to work under Professor Louigi Addario-Berry’s supervision. I also received an *FRQ supplement* for this award, bringing the total to $10,200. Together with two other students, I studied an algorithm designed to recover the root (or initial vertex) of a random tree grown via uniform attachment.
+Durant l’été 2024, j’ai reçu la *Bourses de recherche de 1er cycle du CRSNG* pour travailler sous la supervision du professeur Louigi Addario-Berry. J’ai aussi reçu le supplément pour cette bourse donné par le FRQ ce qui totalisait 10200$. En collaboration avec deux autres étudiants, nous avons étudié les algorithmes de recherche de la racine dans les arbres aléatoires générés par attachement uniforme.
 
-In this process, each new vertex is attached to an existing vertex chosen uniformly at random. The algorithm, introduced by Bubeck, Devroye, and Lugosi in *“Finding Adam in Random Growing Trees”*, selects a set of vertices whose size is independent of the tree size, ensuring the root is in the outputted set with the desired confidence level. Working with my colleagues, we determined the optimal number of candidates needed for the algorithm to achieve its goal. As a result, I co-authored a paper which is currently available on [arXiv](https://arxiv.org/abs/2411.18614). This experience sparked my love for applied mathematics and probability and significantly influenced my goals for graduate studies.
+Dans ce processus pour générer un tel arbre, chaque nouveau sommet est attaché à un sommet existant choisi uniformément au hasard. Pour tout $\varepsilon > 0$, l'algorithme introduit par Bubeck, Devroye et Lugosi dans *"Finding Adam in Random Growing Trees"* sélectionne un ensemble de sommets dont la cardinalité est indépendante de la taille totale de l'arbre et qui contient la racine avec une probabilité d'au moins $1 − \varepsilon$. Nous avons déterminé le nombre optimal de sommets nécessaires pour que l'algorithme fonctionne. Ainsi, j'ai coécrit un article qui est actuellement disponible sur [arXiv](https://arxiv.org/abs/2411.18614). Cette expérience a nourri ma passion pour les mathématiques appliquées et la probabilité, et a largement influencé mes objectifs pour ma maîtrise.
 
 ### La confidentialité différentielle et la dimension de Littlestone
 
-As part of a graduate course on mathematics for artificial intelligence, I explored differential privacy in the non-interactive setting. An algorithm achieves differential privacy when any individual's data has minimal influence on the results of a dataset query, thereby ensuring the protection of sensitive data. My project involved analyzing the article *“A Learning Theory Approach to Non-Interactive Database Privacy”* by Blum, Ligett, and Roth.
+Dans un cours de deuxième cycle sur les mathématiques pour l'intelligence artificielle, j'ai étudié la confidentialité différentielle dans le contexte non interactif. Un algorithme respecte la confidentialité différentielle lorsque les données d'un individu ont un impact minimal sur le résultat de toute requête, protégeant ainsi les données sensibles d’un jeu de données. Mon projet a analysé l'article *"A Learning Theory Approach to Non-Interactive Database Privacy"* de Blum, Ligett et Roth.
 
-Building on this, I took a research course *(COMP 400)* under Professor Hamed Hatami, where I worked with another student to investigate the clique dimension of contradiction graphs for various concept classes. We aimed to improve the known upper bounds as a function of the Littlestone dimension. The Littlestone dimension is finite if and only if a concept class is approximately private learnable, meaning it can be PAC-learned by an approximately differentially private algorithm. This course allowed me to explore a topic in theoretical artificial intelligence, where the data dimensions were too large to allow realistic running times for any algorithm, making the use of advanced graph theory essential.
 
 ### Les formes modulaires
 
-In the summer of 2023, I received the *Science Undergraduate Research Award (SURA)*, valued at $8,350, and was supervised by Professor Patrick Allen. My project focused on finding counterexamples to a component of Serre’s Modularity Conjecture. Although this conjecture was disproved by Serre himself, it provides a framework for understanding which Galois representations correspond to modular forms under specific conditions, including level, weight, and Dirichlet character.
-
-The issue of this result was the conjectured Dirichlet character. Collaborating with two other students, we developed an algorithm to identify modular forms that served as counterexamples by analyzing their Dirichlet characters. Using SageMath, a library designed for number theory, we used the data from the *L-functions and Modular Forms Database (LMFDB)*.
 
 ### Projets futurs
-
-Looking ahead, I’m thrilled to participate in the Directed Reading Program next semester. I’ll be working with Tasmin Chu, a master’s student supervised by Louigi Addario-Berry, to dive into key chapters of *“Probability on Trees and Networks”* by Lyons and Peres.
-
 
