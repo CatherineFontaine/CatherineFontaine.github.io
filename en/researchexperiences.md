@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research Experiences
+lang: en
 ---
 ## Research Experiences
 
