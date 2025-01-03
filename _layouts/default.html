@@ -53,13 +53,20 @@
   </footer>
   <script>
     const pageLang = document.documentElement.lang || 'en';
-    const months = {{ site.data.sidebar.months | jsonify }};
+    const monthsData = {
+        en: {{ site.data.sidebar.en.months | jsonify }},
+        fr: {{ site.data.sidebar.fr.months | jsonify }}
+    };
     const lastUpdatedDate = new Date(document.lastModified);
-    const monthName = months[pageLang][lastUpdatedDate.getMonth()];
+    const monthName = monthsData[pageLang][lastUpdatedDate.getMonth()];
     const year = lastUpdatedDate.getFullYear();
-    document.getElementById('last-updated').innerHTML = 
-        `<span class="copyright-symbol">&copy;</span> ${monthName} ${year} Catherine Fontaine`;
-  </script>
 
+    if (monthName && year) {
+        document.getElementById('last-updated').innerHTML =
+            `<span class="copyright-symbol">&copy;</span> ${monthName} ${year} Catherine Fontaine`;
+    } else {
+        console.error("Failed to load month name or year.");
+    }
+  </script>
 </body>
 </html>
