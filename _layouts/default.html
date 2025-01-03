@@ -51,12 +51,15 @@
   <footer>
     <p id="last-updated"></p>
   </footer>
-
   <script>
-    const lastUpdatedDate = new Date(document.lastModified); // Gets the last modified date
-    const options = { year: 'numeric', month: 'long' }; // Formats as "Month Year"
+    const pageLang = document.documentElement.lang || 'en';
+    const months = {{ site.data.sidebar.months | jsonify }};
+    const lastUpdatedDate = new Date(document.lastModified);
+    const monthName = months[pageLang][lastUpdatedDate.getMonth()];
+    const year = lastUpdatedDate.getFullYear();
     document.getElementById('last-updated').innerHTML = 
-      `<span class="copyright-symbol">&copy;</span> ${lastUpdatedDate.toLocaleDateString('en-US', options)} Catherine Fontaine`;
+        `<span class="copyright-symbol">&copy;</span> ${monthName} ${year} Catherine Fontaine`;
   </script>
+
 </body>
 </html>
