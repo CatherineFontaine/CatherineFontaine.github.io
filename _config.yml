@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+nav:
+  - Home: /
+  - Resume: /resume
+  - Research experiences: /researchexperiences  
+  - Presentations: /presentations
+  - Other experiences: /otherexperiences
