@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Other Experiences
+lang: en
 ---
 ## Other Experiences
 ### Service Work
