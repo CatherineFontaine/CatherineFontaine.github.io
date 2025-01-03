@@ -25,16 +25,14 @@
   </header>
   <div class="main-content">
   <!-- Sidebar navigation -->
-    <div class="sidebar" id="sidebar">  
+    <div class="sidebar" id="sidebar">
       <ul>
-        <li><a href="{{ site.baseurl }}/{{ page.lang }}/">{{ site.data.sidebar[page.lang].home }}</a></li>
-        <li><a href="{{ site.baseurl }}/{{ page.lang }}/resume.pdf" target="_blank">{{ site.data.sidebar[page.lang].resume }}</a></li>
-        <li><a href="{{ site.baseurl }}/{{ page.lang }}/researchexperiences">{{ site.data.sidebar[page.lang].researchexperiences }}</a></li>
-        <li><a href="{{ site.baseurl }}/{{ page.lang }}/presentations">{{ site.data.sidebar[page.lang].presentations }}</a></li>
-        <li><a href="{{ site.baseurl }}/{{ page.lang }}/otherexperiences">{{ site.data.sidebar[page.lang].otherexperiences }}</a></li>
+        {% for item in site.data.sidebar[page.lang].navigation %}
+          <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+        {% endfor %}
       </ul>
       <div class="language-switcher">
-        <a href="/en/" class="language-option">English</a> | 
+        <a href="/en/" class="language-option">English</a> |
         <a href="/fr/" class="language-option">Français</a>
       </div>
     </div>
