@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Expériences de recherche
+lang: fr
 ---
 ## Expériences de recherche  
 
