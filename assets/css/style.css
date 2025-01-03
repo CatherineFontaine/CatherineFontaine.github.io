@@ -21,6 +21,23 @@
   }
 }
 
+.language-switcher {
+  margin-top: 20px;
+  text-align: center; 
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.language-option {
+  color: #333; /* Adjust to your theme */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.language-option:hover {
+  text-decoration: underline;
+  color: #007BFF; /* Highlight color on hover */
+}
+
 .copyright-symbol {
   font-size: 1em; /* Increase size of the copyright symbol */
 }
