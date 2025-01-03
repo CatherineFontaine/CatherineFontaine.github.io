@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Accueil
+lang: fr
 ---
 
 ## Bienvenue sur mon site web! 
