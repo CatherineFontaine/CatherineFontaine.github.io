@@ -18,4 +18,4 @@ I was invited as a current undergraduate student to speak and welcome the new st
 Simone Têtu and I will be presenting our work from the paper we co-authored.
 
 ***Frontiers of Statistical Mechanics and Theoretical Computer Science*, August 2024**  
-Joint results was presented by Louigi Addario-Berry
+Joint results was presented by Louigi Addario-Berry.
