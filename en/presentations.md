@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Presentations
+lang: en
 ---
 ## Presentations
 ***Summer Undergraduate Research Conference* at McGill University, 2023**  
