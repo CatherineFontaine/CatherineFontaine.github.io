@@ -15,9 +15,9 @@ lang: fr
   </div>
 </div>  
 
-Je m’appelle Catherine Fontaine. L'année prochaine, je terminerai mon baccalauréat en mathématiques et informatique, profil honor, à McGill ! Après avoir complété un bootcamp en apprentissage automatique donné par la *McGill Artificial Intelligence Society*, j'ai développé un intérêt pour les méthodes probabilistes utilisées pour concevoir des algorithmes efficaces.  
+Je m’appelle Catherine Fontaine. J'ai terminé mon baccalauréat en mathématiques et informatique, profil honor, à McGill et je commence ma maitrise sous la supervision de Louigi Addario-Berry! 
 
-Durant mon baccalauréat, j’ai appris la théorie des probabilités grâce à des cours de niveau maîtrise et j’ai été particulièrement intéressée par les processus stochastiques, notamment les arbres aléatoires. Cet été, j’ai mené une recherche sur les algorithmes de recherche de la racine dans les arbres aléatoires générés par attachement uniforme et j’ai participé à *l’école d’été en probabilité organisée par le CRM-PIMS* à l’Université de Montréal. Cela a confirmé ce que je soupçonnais déjà : c’est en probabilité que je souhaite poursuivre ma maîtrise.
+Durant mon baccalauréat, j’ai appris la théorie des probabilités grâce à des cours de niveau maîtrise et j’ai été particulièrement intéressée par les processus stochastiques, notamment les arbres aléatoires. Ma recherche portera sur les graphes à croissance aléatoire dans le modèle d’attachement préférentiel superlinéaire.
 
 ### Publications
 
