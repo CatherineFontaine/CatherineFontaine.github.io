@@ -10,7 +10,7 @@ During the last two years of my undergrad, I was involved with the *McGill Artif
 
 In my first year, I worked as VP Events, and I had the opportunity to organize two big events: *MAIS Hacks* and the *Learnathon*. *MAIS Hacks* was a 48-hour hackathon with 150 participants, where the challenge was to create a project involving AI. We had mentorship and workshops available for everyone, and I worked closely with industry sponsors to make sure everything ran smoothly. The *Learnathon*, on the other hand, was a series of conferences on AI and ML, where we brought in leading researchers, including Yoshua Bengio.
 
-This year, I started off on the podcast team, reaching out to AI leaders in both industry and academia to plan interviews for our podcast. By the end of the fall semester, I returned to the Events team to help make the 2025 hackathon a success.
+Last year, I started off on the podcast team, reaching out to AI leaders in both industry and academia to plan interviews for our podcast. By the end of the fall semester, I returned to the Events team to help make the 2025 hackathon a success.
 
 ### Work Experience 
 
