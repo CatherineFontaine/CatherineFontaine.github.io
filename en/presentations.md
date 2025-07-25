@@ -5,11 +5,11 @@ lang: en
 ---
 ## Presentations
 
-***PIMS-CRM summer school in probability* at University of British of Columbia, June 2025**
+***PIMS-CRM summer school in probability* at University of British of Columbia, June 2025**  
 Joint results was presented by Robin Khanfir.
 
-***Presentation at Collège André-Grasset*, February 2025**
-*Arbres aléatoires*
+***Presentation at Collège André-Grasset*, February 2025**  
+*Arbres aléatoires*  
 I presented my work to CEGEP students as an introduction to mathematical research.
 
 ***Séminaires universitaires en mathématiques à Montréal (SUMM)*, January 2025**  
