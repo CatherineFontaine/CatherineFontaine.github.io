@@ -6,7 +6,6 @@ lang: en
 ## Presentations
 
 ***PIMS-CRM summer school in probability* at University of British of Columbia, June 2025**
-
 Joint results was presented by Robin Khanfir.
 
 ***Presentation at Collège André-Grasset*, February 2025**  
