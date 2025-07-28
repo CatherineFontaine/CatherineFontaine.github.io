@@ -9,7 +9,7 @@ Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes 
 
 ### Directed Reading Program
 
-À l’hiver 2025, dans le cadre #Directed Reading Program#, j’ai été encadrée par l’étudiante à la maîtrise Tasmin Chu. Nous avons étudié Markov Chains and Mixing Times de Levin et Peres pour les bases sur les chaînes de Markov, ainsi que Probability on Trees and Networks de Lyons et Peres comme texte principal. Un calendrier détaillé de notre travail est disponible [ici](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship)
+À l’hiver 2025, dans le cadre *Directed Reading Program*, j’ai été encadrée par l’étudiante à la maîtrise Tasmin Chu. Nous avons étudié Markov Chains and Mixing Times de Levin et Peres pour les bases sur les chaînes de Markov, ainsi que Probability on Trees and Networks de Lyons et Peres comme texte principal. Un calendrier détaillé de notre travail est disponible [ici](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship)
 
 ### Les arbres aléatoires  
 
