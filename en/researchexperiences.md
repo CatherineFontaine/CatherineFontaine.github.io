@@ -7,6 +7,10 @@ lang: en
 
 I want to express my gratitude to the professors at McGill who gave me incredible research opportunities and helped solidify my decision to pursue further studies. During my undergraduate years, my research focused on three main topics: random trees, differential privacy and Littlestone dimension, and modular forms.
 
+### Directed Reading Program
+
+During Winter 2025, as part of the Directed Reading Program, I was supervised by master’s student Tasmin Chu. We studied Markov Chains and Mixing Times by Levin and Peres for foundational material on Markov chains, and Probability on Trees and Networks by Lyons and Peres as the main text. A detailed schedule of our work is available [here](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship).
+
 ### Random Trees
 
 In the summer of 2024, I received the *NSERC Undergraduate Student Research Award (USRA)* to work under Professor Louigi Addario-Berry’s supervision. I also received an *FRQ supplement* for this award, bringing the total to $10,200. Together with two other students, I studied an algorithm designed to recover the root (or initial vertex) of a random tree grown via uniform attachment.
@@ -25,7 +29,4 @@ In the summer of 2023, I received the *Science Undergraduate Research Award (SUR
 
 The issue of this result was the conjectured Dirichlet character. Collaborating with two other students, we developed an algorithm to identify modular forms that served as counterexamples by analyzing their Dirichlet characters. Using SageMath, a library designed for number theory, we used the data from the *L-functions and Modular Forms Database (LMFDB)*.
 
-### Future Projects
-
-Looking ahead, I’m thrilled to participate in the Directed Reading Program next semester. I’ll be working with Tasmin Chu, a master’s student supervised by Louigi Addario-Berry, to dive into key chapters of *“Probability on Trees and Networks”* by Lyons and Peres.
 
