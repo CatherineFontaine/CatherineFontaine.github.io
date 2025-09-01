@@ -9,8 +9,7 @@ I want to express my gratitude to the professors at McGill who gave me incredibl
 
 ### Directed Reading Program
 
-During Winter 2025, as part of the Directed Reading Program, I was supervised by master’s student Tasmin Chu. We studied Markov Chains and Mixing Times by Levin and Peres for foundational material on Markov chains, and Probability on Trees and Networks by Lyons and Peres as the main text. A detailed schedule of our work is available [here](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship).
-
+During Winter 2025, as part of the Directed Reading Program, I was supervised by master’s student Tasmin Chu. We studied Markov Chains and Mixing Times by Levin and Peres for foundational material on Markov chains, and Probability on Trees and Networks by Lyons and Peres as the main text. A detailed schedule of our work is available [here](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship) and our final report can be found [here](https://www.math.mcgill.ca/gsams/drp/PastYears.html) under the 2025 section, where the project is titled Probability on Trees and Networks.
 ### Random Trees
 
 In the summer of 2024, I received the *NSERC Undergraduate Student Research Award (USRA)* to work under Professor Louigi Addario-Berry’s supervision. I also received an *FRQ supplement* for this award. Together with two other students, I studied an algorithm designed to recover the root (or initial vertex) of a random tree grown via uniform attachment.
