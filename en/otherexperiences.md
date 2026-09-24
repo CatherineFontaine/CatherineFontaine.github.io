@@ -5,6 +5,9 @@ lang: en
 ---
 ## Other Experiences
 ### Service Work
+In 2025-2026 and this year, I am the coordinator of the Directed Reading Program in the Mathematics and Statistics Department at McGill University. This mentorship program pairs 60 undergraduate and graduate students for supervised mathematical reading projects. Also, in Winter 2026, I mentored two undergraduate students on a reading project on advanced probability theory. We focused on understanding Bienaymé trees. 
+
+I am also involved in the Graduate Student Association for Mathematics and Statistics. In the year 2025-2026, I was the First-Year Representative, and this year, I am the VP Finance.
 
 During the last two years of my undergrad, I was involved with the *McGill Artificial Intelligence Society*, a club that’s very dear to me. AI is a complex field to master, but these days, it’s such an essential tool to have in anyone’s toolbox. This club provides a welcoming space for beginners to dive deeper into the topic and learn more about its importance as a key research area in both academia and industry.
 
