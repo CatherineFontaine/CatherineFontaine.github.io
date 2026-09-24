@@ -3,15 +3,26 @@ layout: default
 title: Expériences de recherche
 lang: fr
 ---
+
+I proved that bounded-size root-finding algorithms are impossible in the superlinear preferential attachment model, where each new vertex is attached to an existing one with probability proportional to the degree of the existing vertex raised to a power p, where p>1. I subsequently studied the distance between the maximum-degree node and the root, allowing me to find the optimal vertex to estimate the root. The preprint of this work will soon be available on arXiv.
+
+This work is part of my Master's thesis and was funded by the Bourse de maîtrise en recherche of the Fonds de Recherche du Québec, the Canada Graduate Scholarships — Master’s program of Natural Sciences and Engineering Research Council of Canada and a few scholarship of McGill University.
+
 ## Expériences de recherche  
 
-Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes expériences de recherche et m'ont permis de confirmer mon désir de poursuivre mes études. Durant mon baccalauréat, je me suis concentrée sur trois sujets : les arbres aléatoires, la confidentialité différentielle et la dimension de Littlestone, ainsi que les formes modulaires.  
+Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes expériences de recherche et m'ont permis de confirmer mon désir de poursuivre mes études. Durant ma maîtrise, ma recherche se concentre sur les arbres aléatoires créés par attachement préférentiel superlinéaire. Durant mon baccalauréat, je me suis concentrée sur trois sujets : les arbres aléatoires, la confidentialité différentielle et la dimension de Littlestone, ainsi que les formes modulaires.
+
+## Les arbres aléatoires créés par attachement préférentiel superlinéaire
+
+J'ai démontré l'impossibilité d'un algorithme de recherche de racine dans le modèle d'attachement préférentiel superlinéaire, où un nouveau sommet est attaché à un sommet existant avec une probabilité proportionnelle au degré de ce sommet élevé à une puissance p pour p > 1. J'ai alors étudié la distance entre le sommet de degré maximal et la racine, menant à la possibilité de définir le sommet estimant le mieux la racine. Une prépublication sera prochainement disponible sur arXiv.
+
+Ce projet fait partie de ma thèse de maîtrise et il a été financé par la Bourse de maîtrise en recherche du Fonds de recherche du Québec, les Bourses d’études supérieures en recherche du Canada au niveau de la maîtrise du Conseil de recherches en sciences naturelles et en génie du Canada et quelques bourses de l'Université McGill. 
 
 ### Directed Reading Program
 
 À l’hiver 2025, dans le cadre *Directed Reading Program*, j’ai été encadrée par l’étudiante à la maîtrise Tasmin Chu. Nous avons étudié Markov Chains and Mixing Times de Levin et Peres pour les bases sur les chaînes de Markov, ainsi que Probability on Trees and Networks de Lyons et Peres comme texte principal. Un calendrier détaillé de notre travail est disponible [ici](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship) et notre rapport final est disponible [ici](https://www.math.mcgill.ca/gsams/drp/PastYears.html), dans la section 2025, et porte le titre *Probability on Trees and Networks*.
 
-### Les arbres aléatoires  
+### Les arbres aléatoires créés par attachement uniforme
 
 Durant l’été 2024, j’ai reçu la *Bourses de recherche de 1er cycle du CRSNG* pour travailler sous la supervision du professeur Louigi Addario-Berry. J’ai aussi reçu le supplément pour cette bourse donné par le FRQ. En collaboration avec deux autres étudiants, nous avons étudié les algorithmes de recherche de la racine dans les arbres aléatoires générés par attachement uniforme.  
 
