@@ -5,6 +5,14 @@ lang: en
 ---
 ## Presentations
 
+***Pizza Talk Mathematics and Statistics Graduate Students' Association Seminar* at McGill University, September 2026** 
+*Where does a tree begin? The Superlinear Case*
+
+***Department of Mathematics and Statistics Orientation Session* at McGill University, 2026**  
+I was invited as a current undergraduate student to speak and welcome the new students.
+
+***Department of Mathematics and Statistics Information Session on Undergraduate Summer Research Award* at McGill University, 2026**  
+I was invited to share my experiences on Summer Research Awards. 
 
 ***PIMS-CRM summer school in probability* at University of British of Columbia, June 2025**  
 Joint results was presented by Robin Khanfir.
