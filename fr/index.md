@@ -15,9 +15,9 @@ lang: fr
   </div>
 </div>  
 
-Je m’appelle Catherine Fontaine. J'ai terminé mon baccalauréat en mathématiques et informatique, profil honor, à McGill et je commence ma maitrise sous la supervision de Louigi Addario-Berry! 
+Je m’appelle Catherine Fontaine. Je suis une étudiante à la maitrise sous la supervision de Louigi Addario-Berry à l'Université McGill. J'ai terminé mon baccalauréat en mathématiques et informatique à l'Université McGill avec *First-Class Honors* et distinction.
 
-Durant mon baccalauréat, j’ai appris la théorie des probabilités grâce à des cours de niveau maîtrise et j’ai été particulièrement intéressée par les processus stochastiques, notamment les arbres aléatoires. Ma recherche portera sur les graphes à croissance aléatoire dans le modèle d’attachement préférentiel superlinéaire.
+Je suis particulièrement intéressée par les processus stochastiques, notamment les arbres aléatoires. Ma recherche porte sur les graphes à croissance aléatoire dans le modèle d’attachement préférentiel superlinéaire.
 
 ### Publications
 
