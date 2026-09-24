@@ -4,10 +4,6 @@ title: Expériences de recherche
 lang: fr
 ---
 
-I proved that bounded-size root-finding algorithms are impossible in the superlinear preferential attachment model, where each new vertex is attached to an existing one with probability proportional to the degree of the existing vertex raised to a power p, where p>1. I subsequently studied the distance between the maximum-degree node and the root, allowing me to find the optimal vertex to estimate the root. The preprint of this work will soon be available on arXiv.
-
-This work is part of my Master's thesis and was funded by the Bourse de maîtrise en recherche of the Fonds de Recherche du Québec, the Canada Graduate Scholarships — Master’s program of Natural Sciences and Engineering Research Council of Canada and a few scholarship of McGill University.
-
 ## Expériences de recherche  
 
 Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes expériences de recherche et m'ont permis de confirmer mon désir de poursuivre mes études. Durant ma maîtrise, ma recherche se concentre sur les arbres aléatoires créés par attachement préférentiel superlinéaire. Durant mon baccalauréat, je me suis concentrée sur trois sujets : les arbres aléatoires, la confidentialité différentielle et la dimension de Littlestone, ainsi que les formes modulaires.
