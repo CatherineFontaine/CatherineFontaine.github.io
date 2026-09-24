@@ -16,9 +16,9 @@ lang: en
 </div>  
 
 
-My name is Catherine Fontaine. I completed my Honours degree in Mathematics and Computer Science at McGill and will be starting a master’s in Mathematics this September under the supervision of Louigi Addario-Berry.
+My name is Catherine Fontaine and I am a master’s students in Mathematics under the supervision of Louigi Addario-Berry at McGill University. I completed my Honours udergraduate degree in Mathematics and Computer Science at McGill with First-Class Honours and Distinction.
 
-I’m particularly drawn to the intersection of mathematics and computer science, with a focus on probability theory. As an undergrad, I explored this through graduate-level courses and became especially interested in stochastic processes, like random graph processes. My research will focus on randomly growing graph in the superliner preferential attachment model. 
+I’m particularly drawn to the intersection of mathematics and computer science, with a focus on probability theory. As an undergrad, I work on random graph processes. My current research focuses on root-finding algorithms of randomly growing graph in the superliner preferential attachment model. 
 
 ### Publications
 
