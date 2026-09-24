@@ -5,12 +5,19 @@ lang: en
 ---
 ## Research Experiences
 
-I want to express my gratitude to the professors at McGill who gave me incredible research opportunities and helped solidify my decision to pursue further studies. During my undergraduate years, my research focused on three main topics: random trees, differential privacy and Littlestone dimension, and modular forms.
+I want to express my gratitude to the professors at McGill who gave me incredible research opportunities and helped solidify my decision to pursue further studies. During my masters, my research is on random trees grown via superlinear preferential attachment. During my undergraduate years, my research focused on three main topics: random trees, differential privacy and Littlestone dimension, and modular forms.
+
+### Random Trees grown via superlinear prefernetial attachment
+
+I proved that bounded-size root-finding algorithms are impossible in the superlinear preferential attachment model, where each new vertex is attached to an existing one with probability proportional to the degree of the existing vertex raised to a power p, where p>1. I subsequently studied the distance between the maximum-degree node and the root, allowing me to find the optimal vertex to estimate the root. The preprint of this work will soon be available on arXiv. 
+
+This work is part of my Master's thesis and was funded by the *Bourse de maîtrise en recherche* of the Fonds de Recherche du Québec, the Canada Graduate Scholarships — Master’s program of Natural Sciences and Engineering Research Council of Canada and a few scholarship of McGill University.
 
 ### Directed Reading Program
 
 During Winter 2025, as part of the Directed Reading Program, I was supervised by master’s student Tasmin Chu. We studied Markov Chains and Mixing Times by Levin and Peres for foundational material on Markov chains, and Probability on Trees and Networks by Lyons and Peres as the main text. A detailed schedule of our work is available [here](https://publish.obsidian.md/tasmin-chu/DRP+Mentorship) and our final report can be found [here](https://www.math.mcgill.ca/gsams/drp/PastYears.html) under the 2025 section, where the project is titled Probability on Trees and Networks.
-### Random Trees
+
+### Random Trees grown via uniform attachment
 
 In the summer of 2024, I received the *NSERC Undergraduate Student Research Award (USRA)* to work under Professor Louigi Addario-Berry’s supervision. I also received an *FRQ supplement* for this award. Together with two other students, I studied an algorithm designed to recover the root (or initial vertex) of a random tree grown via uniform attachment.
 
