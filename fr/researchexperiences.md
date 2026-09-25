@@ -8,7 +8,7 @@ lang: fr
 
 Je tiens à remercier les professeurs de McGill qui m'ont encadrée lors de mes expériences de recherche et m'ont permis de confirmer mon désir de poursuivre mes études. Durant ma maîtrise, ma recherche se concentre sur les arbres aléatoires créés par attachement préférentiel superlinéaire. Durant mon baccalauréat, je me suis concentrée sur trois sujets : les arbres aléatoires, la confidentialité différentielle et la dimension de Littlestone, ainsi que les formes modulaires.
 
-## Les arbres aléatoires créés par attachement préférentiel superlinéaire
+### Les arbres aléatoires créés par attachement préférentiel superlinéaire
 
 J'ai démontré l'impossibilité d'un algorithme de recherche de racine dans le modèle d'attachement préférentiel superlinéaire, où un nouveau sommet est attaché à un sommet existant avec une probabilité proportionnelle au degré de ce sommet élevé à une puissance p pour p > 1. J'ai alors étudié la distance entre le sommet de degré maximal et la racine, menant à la possibilité de définir le sommet estimant le mieux la racine. Une prépublication sera prochainement disponible sur arXiv.
 
